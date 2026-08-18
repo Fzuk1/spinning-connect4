@@ -371,6 +371,9 @@ void renderGameState(GameState* state)
 
 	_renderGrid(state);
 
+	DrawText("Press 0->9", 10, 10, FONT_SIZE, RAYWHITE);
+	DrawText("and A->F", 10, 10 + FONT_SIZE, FONT_SIZE, RAYWHITE);
+
 	EndDrawing();
 }
 
